@@ -1,0 +1,118 @@
+/* Normalização */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background: lightblue;
+}
+
+.polariod {
+  background: white;
+  padding: 10px 10px 40px;
+  border-radius: 5px;
+  box-shadow: 3px 4px 10px rgb(54, 53, 53);
+}
+
+.polariod img {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+}
+
+#aguia2 {
+  display: none;
+}
+
+#aguia3 {
+  display: none;
+}
+
+.container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin: 40px;
+}
+
+.legenda {
+  text-align: justify;
+}
+
+/* ---------------Tablet-------------- */
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 20px;
+  }
+
+  #foto1 {
+    grid-column: 1/-1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px
+   
+  }
+  #legenda1 {
+    grid-column: 1/-1;
+  }
+
+  #foto8 {
+    grid-column: 1/-1;
+
+   
+  }
+  
+  #aguia1{
+    width: 100%;
+  }
+  #aguia2{
+    width: 100%;
+    position: center;
+    display: inline;
+  }
+
+  #aguia3{
+    width: 100%;
+    position: end;
+    display: inline;
+  }
+  
+
+}
+
+/* ---------------fablet-------------- */
+
+@media (min-width: 650px) and (max-width: 800px){
+
+  .container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 20px;
+  }
+
+}
+
+/* ---------------mobile-------------- */
+
+@media (max-width: 650px){
+
+  .container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin: 20px;
+  }
+
+}

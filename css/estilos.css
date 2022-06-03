@@ -1,0 +1,133 @@
+h1 {
+  text-align: center;
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+  font-family: halo;
+}
+
+@font-face {
+  font-family: blackclover ;
+  src: url("/arquivos/black.ttf");
+}
+
+@font-face {
+  font-family: halo;
+  src: url("/arquivos/Halo.ttf");
+}
+
+@font-face {
+  font-family: halo2;
+  src: url("/arquivos/HaloOutline.ttf");
+}
+
+
+hr {
+  width: 60%;
+  height: 15px;
+  background: orange;
+}
+
+.texto {
+  font-family: blackclover;
+  width: 60%;
+  text-align: justify;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.texto2 {
+  font-family: blackclover;
+  width: 60%;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  margin-right: auto; 
+  margin-left: auto;
+}
+
+.fParagrafo{
+  background: rgba(255, 255, 255, 0.200);
+  width: 60%;
+  margin-right: auto; 
+  margin-left: auto;
+}
+
+
+#beach {
+  width: 60%;
+  height: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.videosol {
+  width: 60%;
+  height: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+/* body {
+  background: linear-gradient(45deg, red, white, blue);
+} */
+
+body {
+  background: url("/imagens/beach2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center bottom;
+}
+
+.fundo {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    128deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(9, 9, 121, 0.5998774509803921) 49%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+
+button {
+  padding: 10px;
+  border-color: white;
+  background: rgb(3, 85, 3);
+  color: white;
+  border-radius: 6%;
+  transition: 0.5s;
+}
+
+
+button:hover {
+  padding: 13px;
+  border-color: black;
+  background: white;
+  color: rgb(3, 85, 3);
+  border-radius: 10%;
+}
+
+button:active{
+  background: red;
+  border-radius: 50%;
+  transition: 0.1s;  
+}
+
+
+
+.botoes {
+  width: 60%;
+  margin: 5px auto;
+  background: rgba(255, 0, 0, 0.525);
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}

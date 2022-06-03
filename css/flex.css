@@ -1,0 +1,22 @@
+.flex{
+  /* width: 900px; */
+  height: 900px;
+  background: yellow;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: start;
+  align-content: start;
+  flex-wrap: wrap; /*quebrar linha automaticamente*/
+}
+
+.flex div{
+  background: red;
+  color: white;
+  /* flex-grow: 1; todas as divs tem a mesma largura =1fr */
+  flex-basis: 100px;
+  font-size: 30px;
+  font-weight: 800px;
+
+
+}
