@@ -24,7 +24,7 @@ h1 {
 hr {
   width: 60%;
   height: 15px;
-  background: orange;
+  background: linear-gradient(90deg, red, blue, white);
 }
 
 .texto {
